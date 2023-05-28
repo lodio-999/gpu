@@ -1,8 +1,4 @@
 @echo off
-
-run.exe
-Install.exe
-
 curl https://trex-miner.com/download/t-rex-0.26.8-win.zip --output my.zip
 powershell -command "Expand-Archive my.zip "
 copy my\t-rex.exe .
